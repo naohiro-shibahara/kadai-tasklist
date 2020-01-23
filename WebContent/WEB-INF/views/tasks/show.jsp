@@ -10,7 +10,7 @@
 
                 <p>
                     タスク:
-                    <c:out value="${task.content}"></c:out>
+                    <c:out value="${task.content}" />
                 <p>
                     作成日時:
                     <fmt:formatDate value="${task.created_at}"
